@@ -21,6 +21,9 @@ export const TrStyle = GlobalStyle.styled("tr",{
     color:"white",
     lineHeight:1,
 
+    "&:nth-child(even)":{
+        backgroundColor:"$backgroundInput",
+    },
    
 })
 
